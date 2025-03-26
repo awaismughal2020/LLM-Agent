@@ -5,8 +5,8 @@ This is an AI-powered chatbot for an e-commerce platform that helps users search
 
 ## Versions
 
-- **Version 2:** Chatbot using the Ollama agent.
 - **Version 1:** Simple LangChain tools using SentenceTransformer.
+- **Version 2:** Chatbot using the Ollama agent.
 
 
 ## Features
