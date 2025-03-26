@@ -91,7 +91,8 @@ This chatbot allows users to search for products based on various criteria and r
 ## Project Structure
 
 ```
-├── chatbot
+├── LLM-Agent
+|   ├── chatbot.py         # Main LLM-Agent script
 │   ├── data_loader.py    # Handles loading of data
 │   ├── product_search.py # Product search functionality
 │   ├── faq_retrieval.py  # FAQ retrieval functionality
