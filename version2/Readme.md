@@ -16,7 +16,7 @@ This is an AI-powered chatbot for an e-commerce platform that helps users search
 
 ## File Structure
 ```
-/ecommerce_chatbot
+/LLM Agent
 │── main.py              # Entry point of the chatbot
 │── data_loader.py       # Loads product and FAQ data
 │── product_search.py    # Handles product-related queries
