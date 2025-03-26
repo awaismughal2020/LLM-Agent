@@ -8,8 +8,8 @@ This chatbot allows users to search for products based on various criteria and r
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/awaismughal2020/LLM-Agent
+   cd LLM-Agent
    ```
 
 2. Set up and activate a virtual environment:
