@@ -41,15 +41,20 @@ It is recommended to use a virtual environment to manage dependencies. Run the f
 ```sh
 python3.10 -m venv venv
 source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate     # On Windows
 ```
 
-### 3. Install Python Required Packages
+### 3. Install Required Packages
 ```sh
 pip install -r requirements.txt
 ```
 
-### 4. Run the Chatbot
+### 4. Start Ollama Server
+Before running the chatbot, ensure that the Ollama server is running in a separate terminal outside the virtual environment:
+```sh
+ollama serve
+```
+
+### 5. Run the Chatbot
 Start the chatbot by running:
 ```sh
 python main.py

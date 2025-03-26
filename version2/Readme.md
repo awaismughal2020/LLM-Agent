@@ -49,7 +49,13 @@ venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 ```
 
-### 4. Run the Chatbot
+### 4. Start Ollama Server
+Before running the chatbot, ensure that the Ollama server is running in a separate terminal outside the virtual environment:
+```sh
+ollama serve
+```
+
+### 5. Run the Chatbot
 Start the chatbot by running:
 ```sh
 python main.py
